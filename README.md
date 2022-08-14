@@ -2,7 +2,13 @@
 
 Written and tested on Ubuntu 22.04.
 
-Given an image, creates semi-automatically a depth map given depth clues (in the form of Gimp paths).
+Given an image, semi-automatically creates a depth map given depth clues (in the form of Gimp paths).
+
+Inspiration for the3dconverter2 comes from:
+
+"Deep Annotations: Designing Depth of a Single Image for Depth-based Effects" by Jingtang Liao, Shuheng Shen, Elmar Eisemann.
+
+I liked some of their ideas but not all. I added my own ideas as well. 
 
 To create the executable, compile the code in directory "the3dconverter2" using "make -f Makefile_g/Makefile_O" and then go into the "main" directory and create the exec using "make".
 
