@@ -1,0 +1,19 @@
+include objects.h
+#
+PROGRAM = the3dconverter2.o
+#
+CC = g++
+CFLAGS = -O -Wall\
+-I../common\
+-std=c++11\
+-I/usr/include/suitesparse
+#
+all: $(PROGRAM)
+#
+$(PROGRAM): $(objects)
+	ld -r -o $@ $(objects)
+#
+.c.o:
+	$(CC) -c $(CFLAGS) $<
+.cpp.o:
+	$(CC) -c $(CFLAGS) $<

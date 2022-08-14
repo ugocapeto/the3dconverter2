@@ -1,0 +1,17 @@
+objects=\
+add_gimp_paths_to_sparse_depthmap_image.o\
+alias_dense_depthmap_image_at_edge_image.o\
+check_gimp_paths.o\
+compute_diffusion_direction_from_gimp_paths.o\
+create_dense_depthmap_image_2.o\
+create_dense_depthmap_image_3.o\
+create_dense_depthmap_image.o\
+create_dense_depthmap_image_main.o\
+create_dense_diffusion_direction_image.o\
+create_dense_diffusion_direction_image_main.o\
+free_gimp_paths.o\
+load_gimp_paths.o\
+plot_line.o\
+plot_line_high.o\
+plot_line_low.o\
+print_gimp_paths.o
